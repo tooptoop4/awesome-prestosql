@@ -53,7 +53,7 @@ Lucene https://github.com/totticarter/presto-lucene
 
 Ignite https://github.com/trinodb/trino/pull/8323 / https://github.com/prabhuom1/presto-ignite-connector-plugin / https://github.com/emhlbmc/presto-ignite
 
-Databricks Spark Delta lake https://docs.delta.io/0.7.0/presto-integration.html
+Databricks Spark Delta lake https://github.com/prestodb/presto/pull/16843 / https://docs.delta.io/0.7.0/presto-integration.html
 
 Azure Synapse https://docs.starburstdata.com/latest/connector/starburst-synapse.html
 
