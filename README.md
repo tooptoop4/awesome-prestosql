@@ -7,7 +7,7 @@ A list of PrestoSQL/Trino resources
 
 Generic JDBC https://github.com/prestosql/presto/pull/3105
 
-Flexible (csv/excel/txt/raw/html/json/xml/word doc/powerpoint/pdf/outlook email/zip/gzip/bzip2 file from websites or local disk) https://github.com/ebyhr/trino-storage/pull/25
+Flexible (csv/excel/txt/raw/html/json/xml/word doc/powerpoint/pdf/outlook email/zip/gzip/bzip2 file from websites or local disk) https://github.com/snowlift/trino-storage/pull/25
 
 HTTP Rest API sources https://github.com/prestosql-rocks/presto-rest / https://github.com/cecoppinger/presto-rest / https://github.com/nineinchnick/trino-rest
 
