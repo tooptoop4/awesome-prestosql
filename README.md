@@ -43,6 +43,8 @@ Neptune https://github.com/awslabs/aws-athena-query-federation/tree/master/athen
 
 Sagemaker https://github.com/aws-samples/amazon-athena-train-amazon-sagemaker
 
+S3 without Hive https://github.com/EMCECS/presto-s3-connector
+
 Azure CosmosDB (supported by Mongo connector)
 
 Azure SQL DB (supported by SQLServer connector)
