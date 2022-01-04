@@ -171,7 +171,7 @@ Python https://github.com/tooptoop4/presto-python/blob/master/src/test/java/rock
 
 EC2 instance https://github.com/haitaoyao/presto-aws-plugin/tree/master/src/main/java/presto/aws
 
-
+AWS data (like EC2 instances or S3 buckets) https://github.com/nineinchnick/trino-cloud
 
 
 **Merged connectors (data sources):**
