@@ -173,6 +173,8 @@ EC2 instance https://github.com/haitaoyao/presto-aws-plugin/tree/master/src/main
 
 AWS data (like EC2 instances or S3 buckets) https://github.com/nineinchnick/trino-cloud
 
+Kinetica https://github.com/kineticadb/kinetica-connector-presto
+
 
 **Merged connectors (data sources):**
 
