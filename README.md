@@ -5,7 +5,7 @@ A list of PrestoSQL/Trino resources
 
 **Unmerged Connectors (data sources):**
 
-Generic JDBC https://github.com/prestosql/presto/pull/3105
+Generic JDBC (so far has been tested successfully on sqlite, sybase ASE, oracle, impala, presto, dremio, sparksqlthrift, hiveserver2, postgres, mysql, db2, sqlserver, cockroachdb, derby, h2, hsqldb (ie hypersql), firebird) https://github.com/prestosql/presto/pull/3105
 
 Flexible (csv/excel/txt/raw/html/json/xml/word doc/powerpoint/pdf/outlook email/zip/gzip/bzip2 file from websites or local disk) https://github.com/snowlift/trino-storage/pull/25
 
@@ -13,7 +13,7 @@ HTTP Rest API sources https://github.com/prestosql-rocks/presto-rest / https://g
 
 Sybase (SAP) ASE & IQ https://github.com/prestosql/presto/pull/3462 / https://github.com/prestosql/presto/pull/2976
 
-Teradata https://github.com/prestodb/presto/pull/12078 / https://github.com/jmrozanec/presto-teradata-connector
+Teradata https://github.com/prestodb/presto/pull/12078 / https://github.com/jmrozanec/presto-teradata-connector / https://github.com/awslabs/aws-athena-query-federation/tree/master/athena-teradata
 
 DB2 https://github.com/IBM/presto-db2
 
@@ -27,7 +27,7 @@ Vertica https://github.com/prestosql/presto/pull/6134 / https://github.com/alexs
 
 Carbondata https://github.com/apache/carbondata/tree/master/integration/presto
 
-SAP Hana https://github.com/qq5132834/presto-0.233-hana-connector
+SAP Hana https://github.com/qq5132834/presto-0.233-hana-connector / https://github.com/awslabs/aws-athena-query-federation/tree/master/athena-saphana
 
 Salesforce https://github.com/prestosql/presto/pull/2548
 
@@ -57,7 +57,7 @@ Ignite https://github.com/trinodb/trino/pull/8323 / https://github.com/prabhuom1
 
 Databricks Spark Delta lake https://github.com/prestodb/presto/pull/16843 / https://docs.delta.io/0.7.0/presto-integration.html
 
-Azure Synapse https://docs.starburstdata.com/latest/connector/starburst-synapse.html
+Azure Synapse https://github.com/awslabs/aws-athena-query-federation/tree/master/athena-synapse / https://docs.starburstdata.com/latest/connector/starburst-synapse.html
 
 Pulsar https://github.com/trinodb/trino/pull/8020 / https://github.com/apache/pulsar/tree/master/pulsar-sql/presto-pulsar/src/main/java/org/apache/pulsar/sql/presto (inc. protobuf - https://github.com/apache/pulsar/pull/9841/files)
 
@@ -85,7 +85,7 @@ SnappyData https://github.com/dawsongzhao/snappydata-presto-connector
 
 Greenplum https://github.com/openlookeng/hetu-core/tree/master/hetu-greenplum/src/main/java/io/hetu/core/plugin/greenplum
 
-HiveServer2 https://github.com/WeilerWebServices/Eventbrite/tree/master/presto/presto-hive-jdbc / https://github.com/leolorenzoluis/presto-csv-jdbc
+HiveServer2 https://github.com/WeilerWebServices/Eventbrite/tree/master/presto/presto-hive-jdbc / https://github.com/leolorenzoluis/presto-csv-jdbc / https://github.com/awslabs/aws-athena-query-federation/tree/master/athena-cloudera-hive / https://github.com/awslabs/aws-athena-query-federation/tree/master/athena-hortonworks-hive
 
 Cloudwatch Logs https://github.com/awslabs/aws-athena-query-federation/tree/master/athena-cloudwatch
 
@@ -175,6 +175,20 @@ AWS data (like EC2 instances or S3 buckets) https://github.com/nineinchnick/trin
 
 Kinetica https://github.com/kineticadb/kinetica-connector-presto
 
+Lark Sheets https://prestodb.io/docs/current/connector/larksheets.html
+
+Embedded HiveMetastore https://github.com/aws-samples/amazon-athena-serverless-ehms-connector
+
+Elasticsearch via Glue https://github.com/your2fat/glue-connector
+
+Palantir Foundry https://github.com/palantir/foundry-athena-query-federation-connector
+
+Slack Member Analytics REST API https://github.com/aws-pablito/aws-quicksight-slackanalytics-app/tree/main/athena-slack-member-analytics
+
+Cloudera Impala https://github.com/awslabs/aws-athena-query-federation/tree/master/athena-cloudera-impala
+
+FactorialHR https://github.com/margon8/athena-connector
+
 
 **Merged connectors (data sources):**
 
@@ -248,7 +262,7 @@ ORC
 
 Parquet
 
-Uber Hudi/hoodie (already in Hive connector)
+Uber Hudi/hoodie (already in Hive connector or https://prestodb.io/docs/current/connector/hudi.html / https://github.com/trinodb/trino/pull/10228)
 
 Netflix Iceberg (already in Hive connector)
 
