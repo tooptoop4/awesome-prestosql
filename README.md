@@ -55,8 +55,6 @@ Lucene https://github.com/totticarter/presto-lucene
 
 Ignite https://github.com/trinodb/trino/pull/8323 / https://github.com/prabhuom1/presto-ignite-connector-plugin / https://github.com/emhlbmc/presto-ignite
 
-Databricks Spark Delta lake https://github.com/prestodb/presto/pull/16843 / https://docs.delta.io/0.7.0/presto-integration.html
-
 Azure Synapse https://github.com/awslabs/aws-athena-query-federation/tree/master/athena-synapse / https://docs.starburstdata.com/latest/connector/starburst-synapse.html
 
 Pulsar https://github.com/trinodb/trino/pull/8020 / https://github.com/apache/pulsar/tree/master/pulsar-sql/presto-pulsar/src/main/java/org/apache/pulsar/sql/presto (inc. protobuf - https://github.com/apache/pulsar/pull/9841/files)
@@ -175,6 +173,8 @@ AWS data (like EC2 instances or S3 buckets) https://github.com/nineinchnick/trin
 
 Kinetica https://github.com/kineticadb/kinetica-connector-presto
 
+ADLS Gen2 https://github.com/awslabs/aws-athena-query-federation/tree/master/athena-datalakegen2
+
 Lark Sheets https://prestodb.io/docs/current/connector/larksheets.html
 
 Embedded HiveMetastore https://github.com/aws-samples/amazon-athena-serverless-ehms-connector
@@ -202,13 +202,15 @@ PostgreSQL
 
 MySQL
 
+MariaDB
+
 Amazon Redshift
 
 MongoDB
 
 Cassandra
 
-BigQuery
+BigQuery (Google)
 
 Elasticsearch
 
@@ -219,6 +221,10 @@ Clickhouse
 Druid
 
 JMX
+
+Iceberg (Netflix)
+
+Delta Lake (Databricks Spark)
 
 Kinesis
 
@@ -244,7 +250,9 @@ Local File
 
 Memory
 
-MemSQL
+MemSQL (SingleStore)
+
+Atop
 
 System
 
@@ -263,8 +271,6 @@ ORC
 Parquet
 
 Uber Hudi/hoodie (already in Hive connector or https://prestodb.io/docs/current/connector/hudi.html / https://github.com/trinodb/trino/pull/10228)
-
-Netflix Iceberg (already in Hive connector)
 
 Avro
 
