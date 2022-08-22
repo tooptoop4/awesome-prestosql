@@ -13,13 +13,13 @@ HTTP Rest API sources https://github.com/prestosql-rocks/presto-rest / https://g
 
 Sybase (SAP) ASE & IQ https://github.com/prestosql/presto/pull/3462 / https://github.com/prestosql/presto/pull/2976
 
-Teradata https://github.com/prestodb/presto/pull/12078 / https://github.com/jmrozanec/presto-teradata-connector / https://github.com/awslabs/aws-athena-query-federation/tree/master/athena-teradata
+Teradata https://github.com/prestodb/presto/pull/12078 / https://github.com/jmrozanec/presto-teradata-connector / https://github.com/awslabs/aws-athena-query-federation/tree/master/athena-teradata / https://github.com/prestodb/presto/pull/15675
 
 DB2 https://github.com/IBM/presto-db2
 
 Snowflake https://github.com/prestosql/presto/pull/2551 / https://github.com/rahulbsw/trino-snowflake/tree/main/src/main/java/io/trino/snowflake / https://github.com/awslabs/aws-athena-query-federation/pull/454/files
 
-Hbase https://github.com/harbby/presto-connectors/tree/master/presto-hbase / https://github.com/analysys/presto-hbase-connector / https://github.com/awslabs/aws-athena-query-federation/tree/master/athena-hbase
+Hbase https://github.com/harbby/presto-connectors/tree/master/presto-hbase / https://github.com/analysys/presto-hbase-connector / https://github.com/awslabs/aws-athena-query-federation/tree/master/athena-hbase / https://github.com/openlookeng/hetu-core/tree/master/hetu-hbase/src/main/java/io/hetu/core/plugin/hbase
 
 Riak https://github.com/kuenishi/presto-riak
 
@@ -27,7 +27,7 @@ Vertica https://github.com/prestosql/presto/pull/6134 / https://github.com/alexs
 
 Carbondata https://github.com/apache/carbondata/tree/master/integration/presto
 
-SAP Hana https://github.com/qq5132834/presto-0.233-hana-connector / https://github.com/awslabs/aws-athena-query-federation/tree/master/athena-saphana
+SAP Hana https://github.com/qq5132834/presto-0.233-hana-connector / https://github.com/awslabs/aws-athena-query-federation/tree/master/athena-saphana / https://github.com/openlookeng/hetu-core/tree/master/hetu-hana/src/main/java/io/hetu/core/plugin/hana
 
 Salesforce https://github.com/prestosql/presto/pull/2548
 
@@ -57,7 +57,7 @@ Ignite https://github.com/trinodb/trino/pull/8323 / https://github.com/prabhuom1
 
 Azure Synapse https://github.com/awslabs/aws-athena-query-federation/tree/master/athena-synapse / https://docs.starburstdata.com/latest/connector/starburst-synapse.html
 
-Pulsar https://github.com/trinodb/trino/pull/8020 / https://github.com/apache/pulsar/tree/master/pulsar-sql/presto-pulsar/src/main/java/org/apache/pulsar/sql/presto (inc. protobuf - https://github.com/apache/pulsar/pull/9841/files)
+Pulsar https://github.com/trinodb/trino/pull/8020 / https://github.com/apache/pulsar/tree/master/pulsar-sql/presto-pulsar/src/main/java/org/apache/pulsar/sql/presto (inc. protobuf - https://github.com/apache/pulsar/pull/9841/files) / https://github.com/prestodb/presto/pull/11154
 
 Ethereum https://github.com/xiaoyao1991/presto-ethereum
 
@@ -73,7 +73,7 @@ Arrow https://github.com/Praveen2112/presto/tree/arrow_connector/presto-arrow-fl
 
 kdb https://github.com/sand-stone/dataswitch/tree/master/presto-kdb/src/main/java/kdb/presto / https://github.com/tuor713/trino-kdb
 
-Kylin https://github.com/poiyyq/presto-kylin/tree/master/src/main/java/com/facebook/presto/plugin/kylin
+Kylin https://github.com/poiyyq/presto-kylin/tree/master/src/main/java/com/facebook/presto/plugin/kylin / https://github.com/openlookeng/hetu-core/tree/master/hetu-kylin/src/main/java/io/hetu/core/plugin/kylin
 
 Exasol https://github.com/blunghamer/presto-plugins/tree/master/presto-exasol/src/main/java/io/prestosql/plugin/exasol
 
@@ -110,6 +110,16 @@ Vitess https://github.com/vitessio/contrib/tree/master/presto-vitess-connector /
 Loki https://github.com/sdojjy/presto-loki/tree/master/src/main/java/io/prestosql/plugin/loki
 
 LocalCSV https://github.com/dongqianwei/presto-localcsv
+
+Splunk https://docs.starburst.io/latest/connector/starburst-splunk.html
+
+ScyllaDB https://github.com/trinodb/trino/pull/10336
+
+Alibaba Cloud's MaxCompute https://github.com/prestodb/presto/pull/16599
+
+Alibaba Cloud's Tablestore https://github.com/prestodb/presto/pull/16151
+
+OmniData (Huawei Kunpeng) https://github.com/kunpengcompute/omnidata-openlookeng-connector/tree/main/connector/src
 
 Spreadsheets https://github.com/fortitudetec/presto-plugins/tree/master/spreadsheet-storage-handler
 
