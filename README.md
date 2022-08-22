@@ -498,7 +498,7 @@ columnar, not row based. ie parquet is not suited to retrieving all columns for 
 
 **Missing in all JDBC connectors:**
 
-Complex filter pushdown https://github.com/trinodb/trino/pull/7994 / https://github.com/trinodb/trino/pull/402
+Complex filter pushdown https://github.com/trinodb/trino/issues/18 / https://github.com/trinodb/trino/issues/9506 / https://github.com/trinodb/trino/pull/11522 / https://github.com/trinodb/trino/pull/11045 (for other connectors missing) / https://github.com/trinodb/trino/issues/11699
 
 ORDER BY pushdown https://github.com/trinodb/trino/issues/8093
 
