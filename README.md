@@ -177,6 +177,8 @@ Hyena messaging daemon https://github.com/FCG-LLC/presto/tree/master/presto-hyen
 
 Python https://github.com/tooptoop4/presto-python/blob/master/src/test/java/rocks/prestodb/python/TestPythonFunctions.java
 
+Javascript https://github.com/mdesmet/trino-javascript
+
 EC2 instance https://github.com/haitaoyao/presto-aws-plugin/tree/master/src/main/java/presto/aws
 
 AWS data (like EC2 instances or S3 buckets) https://github.com/nineinchnick/trino-cloud
@@ -198,6 +200,16 @@ Slack Member Analytics REST API https://github.com/aws-pablito/aws-quicksight-sl
 Cloudera Impala https://github.com/awslabs/aws-athena-query-federation/tree/master/athena-cloudera-impala
 
 FactorialHR https://github.com/margon8/athena-connector
+
+NetEase arctic https://github.com/NetEase/arctic/tree/master/trino/src/main/java/com/netease/arctic/trino
+
+Cyberagent valor https://github.com/CyberAgent/valor/tree/develop/valor-trino/src/main/java/jp/co/cyberagent/valor/trino
+
+Flink Table Store https://github.com/JingsongLi/flink-table-store-trino
+
+Honeycomb https://github.com/rkennedy-mode/trino-honeycomb
+
+TiDB https://github.com/tidb-incubator/TiBigData/tree/2051840321bd8fe12b90ddc5397e9af49951b397/trino
 
 
 **Merged connectors (data sources):**
