@@ -25,7 +25,7 @@ Riak https://github.com/kuenishi/presto-riak
 
 Vertica https://github.com/prestosql/presto/pull/6134 / https://github.com/alexsumin/presto-vertica-connector / https://github.com/lev4ik/presto-vertica-connector / https://github.com/awslabs/aws-athena-query-federation/tree/master/athena-vertica
 
-Carbondata https://github.com/apache/carbondata/tree/master/integration/presto
+Carbondata https://github.com/apache/carbondata/tree/master/integration/presto / https://github.com/openlookeng/hetu-core/tree/master/hetu-carbondata/src/main/java/io/hetu/core/plugin/carbondata
 
 SAP Hana https://github.com/qq5132834/presto-0.233-hana-connector / https://github.com/awslabs/aws-athena-query-federation/tree/master/athena-saphana / https://github.com/openlookeng/hetu-core/tree/master/hetu-hana/src/main/java/io/hetu/core/plugin/hana
 
@@ -115,7 +115,7 @@ Splunk https://docs.starburst.io/latest/connector/starburst-splunk.html
 
 ScyllaDB https://github.com/trinodb/trino/pull/10336
 
-Alibaba Cloud's MaxCompute https://github.com/prestodb/presto/pull/16599
+Alibaba Cloud's MaxCompute https://github.com/aliyun/aliyun-maxcompute-data-collectors/tree/master/trino-connector / https://github.com/prestodb/presto/pull/16599
 
 Alibaba Cloud's Tablestore https://github.com/prestodb/presto/pull/16151
 
@@ -209,7 +209,16 @@ Flink Table Store https://github.com/JingsongLi/flink-table-store-trino
 
 Honeycomb https://github.com/rkennedy-mode/trino-honeycomb
 
+Raptor https://github.com/prestodb/presto/tree/master/presto-raptor/src/main/java/com/facebook/presto/raptor
+
+Cratedb https://community.crate.io/t/connecting-to-cratedb-using-trino/993
+
+GeoSpock https://docs.geospock.com/query/connectorGuidelines/
+
+Twilio Segment (write only) https://github.com/tikikun/trino-segment-connector
+
 TiDB https://github.com/tidb-incubator/TiBigData/tree/2051840321bd8fe12b90ddc5397e9af49951b397/trino
+
 
 
 **Merged connectors (data sources):**
