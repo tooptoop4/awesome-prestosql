@@ -51,7 +51,7 @@ Azure SQL DB (supported by SQLServer connector)
 
 Netezza https://github.com/aakashnand/trino-netezza / https://github.com/combineads/plugin-presto-netezza
 
-Lucene https://github.com/totticarter/presto-lucene
+Lucene/Solr https://github.com/totticarter/presto-lucene / https://github.com/photogamerun/weiwodb/tree/master/presto-lucene/src/main/java/com/facebook/presto/lucene
 
 Ignite https://github.com/trinodb/trino/pull/8323 / https://github.com/prabhuom1/presto-ignite-connector-plugin / https://github.com/emhlbmc/presto-ignite
 
