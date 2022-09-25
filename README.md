@@ -9,7 +9,7 @@ Generic JDBC (so far has been tested successfully on sqlite, sybase ASE, oracle,
 
 Flexible (csv/excel/txt/raw/html/json/xml/word doc/powerpoint/pdf/outlook email/zip/gzip/bzip2 file from websites or local disk) https://github.com/snowlift/trino-storage/pull/25
 
-HTTP Rest API sources https://github.com/prestosql-rocks/presto-rest / https://github.com/cecoppinger/presto-rest / https://github.com/nineinchnick/trino-rest
+HTTP Rest API sources https://github.com/prestosql-rocks/presto-rest / https://github.com/cecoppinger/presto-rest / https://github.com/nineinchnick/trino-rest / https://github.com/andreclaudino/trino-http-requester / https://github.com/vjain143/trino-http
 
 Sybase (SAP) ASE & IQ https://github.com/prestosql/presto/pull/3462 / https://github.com/prestosql/presto/pull/2976
 
@@ -219,7 +219,15 @@ Twilio Segment (write only) https://github.com/tikikun/trino-segment-connector
 
 TiDB https://github.com/tidb-incubator/TiBigData/tree/2051840321bd8fe12b90ddc5397e9af49951b397/trino
 
+Hashicorp Consul Connect https://github.com/Skatteetaten/terraform-nomad-trino/tree/94113f26e1d53208cbf92433854e995f5be7d9f9/java/src/main/java/io/github/fredrikhgrelland/trino/plugin/consulconnect / https://github.com/gugalnikov/trino-consul-connect
 
+Wrike REST API https://github.com/alekkol/wrike-sql
+
+Tezos Blockchain https://github.com/NijeboerFrank/presto-tezos/tree/master
+
+DBIIR ParaFlow https://github.com/dbiir/paraflow/tree/master/paraflow-connector/src/main/java/cn/edu/ruc/iir/paraflow/connector
+
+Katta (distributed Lucene) https://github.com/liqimore/kale/tree/master/katta-presto/src/main/java/com/ivyft/katta/presto
 
 **Merged connectors (data sources):**
 
