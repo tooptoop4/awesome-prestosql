@@ -17,7 +17,7 @@ Teradata https://github.com/prestodb/presto/pull/12078 / https://github.com/jmro
 
 DB2 https://github.com/IBM/presto-db2
 
-Snowflake https://github.com/prestosql/presto/pull/2551 / https://github.com/rahulbsw/trino-snowflake/tree/main/src/main/java/io/trino/snowflake / https://github.com/awslabs/aws-athena-query-federation/pull/454/files
+Snowflake https://github.com/prestosql/presto/pull/2551 / https://github.com/rahulbsw/trino-snowflake/tree/main/src/main/java/io/trino/snowflake / https://github.com/awslabs/aws-athena-query-federation/tree/master/athena-snowflake/src/main/java/com/amazonaws/athena/connectors/snowflake
 
 Hbase https://github.com/harbby/presto-connectors/tree/master/presto-hbase / https://github.com/analysys/presto-hbase-connector / https://github.com/awslabs/aws-athena-query-federation/tree/master/athena-hbase / https://github.com/openlookeng/hetu-core/tree/master/hetu-hbase/src/main/java/io/hetu/core/plugin/hbase
 
@@ -55,7 +55,7 @@ Lucene/Solr https://github.com/totticarter/presto-lucene / https://github.com/ph
 
 Ignite https://github.com/trinodb/trino/pull/8323 / https://github.com/prabhuom1/presto-ignite-connector-plugin / https://github.com/emhlbmc/presto-ignite
 
-Azure Synapse https://github.com/awslabs/aws-athena-query-federation/tree/master/athena-synapse / https://docs.starburstdata.com/latest/connector/starburst-synapse.html
+Azure Synapse https://github.com/awslabs/aws-athena-query-federation/tree/master/athena-synapse
 
 Pulsar https://github.com/trinodb/trino/pull/8020 / https://github.com/apache/pulsar/tree/master/pulsar-sql/presto-pulsar/src/main/java/org/apache/pulsar/sql/presto (inc. protobuf - https://github.com/apache/pulsar/pull/9841/files) / https://github.com/prestodb/presto/pull/11154
 
