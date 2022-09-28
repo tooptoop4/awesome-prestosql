@@ -147,6 +147,8 @@ Twitter https://github.com/bitsondatadev/presto/tree/twitter-hacks / https://git
 
 Apache DataSketches https://github.com/trinodb/trino/pull/6643
 
+RocketMQ https://github.com/sunxiaojian/trino-rocketmq
+
 Slack https://github.com/kokosing/trino-rest/tree/master/trino-rest-slack/src/main/java/rocks/trino/rest/slack / https://aws.amazon.com/blogs/big-data/create-a-custom-data-connector-to-slacks-member-analytics-api-in-amazon-quicksight-with-amazon-athena-federated-query/
 
 Github https://github.com/kokosing/trino-rest/tree/master/trino-rest-github/src/main/java/rocks/trino/rest/github
