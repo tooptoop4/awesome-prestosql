@@ -13,11 +13,11 @@ HTTP Rest API sources https://github.com/prestosql-rocks/presto-rest / https://g
 
 Sybase (SAP) ASE & IQ https://github.com/prestosql/presto/pull/3462 / https://github.com/prestosql/presto/pull/2976
 
-Teradata https://github.com/prestodb/presto/pull/12078 / https://github.com/jmrozanec/presto-teradata-connector / https://github.com/awslabs/aws-athena-query-federation/tree/master/athena-teradata / https://github.com/prestodb/presto/pull/15675
+Teradata https://github.com/prestodb/presto/pull/12078 / https://github.com/jmrozanec/trino-teradata-connector / https://github.com/jmrozanec/presto-teradata-connector / https://github.com/awslabs/aws-athena-query-federation/tree/master/athena-teradata / https://github.com/prestodb/presto/pull/15675
 
 DB2 https://github.com/IBM/presto-db2
 
-Snowflake https://github.com/prestosql/presto/pull/2551 / https://github.com/rahulbsw/trino-snowflake/tree/main/src/main/java/io/trino/snowflake / https://github.com/awslabs/aws-athena-query-federation/tree/master/athena-snowflake/src/main/java/com/amazonaws/athena/connectors/snowflake
+Snowflake https://github.com/trinodb/trino/pull/10387 / https://github.com/prestosql/presto/pull/2551 / https://github.com/rahulbsw/trino-snowflake/tree/main/src/main/java/io/trino/snowflake / https://github.com/awslabs/aws-athena-query-federation/tree/master/athena-snowflake/src/main/java/com/amazonaws/athena/connectors/snowflake
 
 Hbase https://github.com/harbby/presto-connectors/tree/master/presto-hbase / https://github.com/analysys/presto-hbase-connector / https://github.com/awslabs/aws-athena-query-federation/tree/master/athena-hbase / https://github.com/openlookeng/hetu-core/tree/master/hetu-hbase/src/main/java/io/hetu/core/plugin/hbase
 
@@ -230,6 +230,10 @@ Tezos Blockchain https://github.com/NijeboerFrank/presto-tezos/tree/master
 DBIIR ParaFlow https://github.com/dbiir/paraflow/tree/master/paraflow-connector/src/main/java/cn/edu/ruc/iir/paraflow/connector
 
 Katta (distributed Lucene) https://github.com/liqimore/kale/tree/master/katta-presto/src/main/java/com/ivyft/katta/presto
+
+SPARQL/Apache Jena syntax https://github.com/ddd332/presto-0.54/tree/a7572ab607512cf084b22b06c871657d3185495e/presto-cli/src/main/java/com/facebook/presto/cli/sparql2sql
+
+Resurface binaries https://github.com/resurfaceio/trino-connector
 
 **Merged connectors (data sources):**
 
