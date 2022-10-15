@@ -135,7 +135,7 @@ Weiwodb/bytecode? https://github.com/photogamerun/weiwodb
 
 Kubernetes https://github.com/xuxinkun/kubesql
 
-TiDB/tikv https://github.com/zhihu/presto-connectors
+TiDB/tikv https://github.com/zhihu/presto-connectors / https://github.com/tidb-incubator/TiBigData/tree/2051840321bd8fe12b90ddc5397e9af49951b397/trino
 
 OpenGauss https://github.com/openlookeng/hetu-core/tree/master/hetu-opengauss/src/main/java/io/hetu/core/plugin/opengauss
 
@@ -152,8 +152,6 @@ RocketMQ https://github.com/sunxiaojian/trino-rocketmq
 Slack https://github.com/kokosing/trino-rest/tree/master/trino-rest-slack/src/main/java/rocks/trino/rest/slack / https://aws.amazon.com/blogs/big-data/create-a-custom-data-connector-to-slacks-member-analytics-api-in-amazon-quicksight-with-amazon-athena-federated-query/
 
 Github https://github.com/kokosing/trino-rest/tree/master/trino-rest-github/src/main/java/rocks/trino/rest/github
-
-Katta https://github.com/zhenqin/katta/tree/master/katta-presto/src/main/java/com/ivyft/katta/presto
 
 Monarch Ampool https://github.com/davinash/monarch/tree/21ac4f538fe695fd7481003084fd2f0a8982cd32/Connectors/monarch-presto/src/main/java/io/ampool/presto/connector
 
@@ -219,8 +217,6 @@ GeoSpock https://docs.geospock.com/query/connectorGuidelines/
 
 Twilio Segment (write only) https://github.com/tikikun/trino-segment-connector
 
-TiDB https://github.com/tidb-incubator/TiBigData/tree/2051840321bd8fe12b90ddc5397e9af49951b397/trino
-
 Hashicorp Consul Connect https://github.com/Skatteetaten/terraform-nomad-trino/tree/94113f26e1d53208cbf92433854e995f5be7d9f9/java/src/main/java/io/github/fredrikhgrelland/trino/plugin/consulconnect / https://github.com/gugalnikov/trino-consul-connect
 
 Wrike REST API https://github.com/alekkol/wrike-sql
@@ -229,11 +225,13 @@ Tezos Blockchain https://github.com/NijeboerFrank/presto-tezos/tree/master
 
 DBIIR ParaFlow https://github.com/dbiir/paraflow/tree/master/paraflow-connector/src/main/java/cn/edu/ruc/iir/paraflow/connector
 
-Katta (distributed Lucene) https://github.com/liqimore/kale/tree/master/katta-presto/src/main/java/com/ivyft/katta/presto
+Katta (distributed Lucene) https://github.com/zhenqin/katta/tree/master/katta-presto/src/main/java/com/ivyft/katta/presto
 
 SPARQL/Apache Jena syntax https://github.com/ddd332/presto-0.54/tree/a7572ab607512cf084b22b06c871657d3185495e/presto-cli/src/main/java/com/facebook/presto/cli/sparql2sql
 
 Resurface binaries https://github.com/resurfaceio/trino-connector
+
+Apache ShardingSphere https://github.com/openlookeng/hetu-core/tree/master/hetu-singledata/src/main/java/io/hetu/core/plugin/singledata/shardingsphere
 
 **Merged connectors (data sources):**
 
@@ -266,6 +264,8 @@ Clickhouse
 Druid
 
 JMX
+
+Hudi (Uber)
 
 Iceberg (Netflix)
 
@@ -314,8 +314,6 @@ see https://trino.io/resources.html for up to date list
 ORC
 
 Parquet
-
-Uber Hudi/hoodie (already in Hive connector or https://prestodb.io/docs/current/connector/hudi.html / https://github.com/trinodb/trino/pull/10228)
 
 Avro
 
