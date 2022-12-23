@@ -233,6 +233,20 @@ Resurface binaries https://github.com/resurfaceio/trino-connector
 
 Apache ShardingSphere https://github.com/openlookeng/hetu-core/tree/master/hetu-singledata/src/main/java/io/hetu/core/plugin/singledata/shardingsphere
 
+**Plugins:**
+
+OpenLineage https://github.com/takezoe/trino-openlineage
+
+LDAP/AD group provider https://github.com/arghya18/trino-group-provider-ldap-ad
+
+Github group provider https://github.com/os-climate/trino-github-group-provider
+
+File group provider https://github.com/hassanahmadkhani/PrestoSQLFileBaseGroupProvider
+
+Open Policy Agent (OPA) https://github.com/stackabletech/trino-opa-authorizer/tree/main
+
+EventListener to Kafka https://github.com/7c00/presto-event-producer
+
 **Merged connectors (data sources):**
 
 Microsoft SQL Server
