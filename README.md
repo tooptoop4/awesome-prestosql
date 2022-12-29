@@ -53,7 +53,7 @@ Netezza https://github.com/aakashnand/trino-netezza / https://github.com/combine
 
 Lucene/Solr https://github.com/totticarter/presto-lucene / https://github.com/photogamerun/weiwodb/tree/master/presto-lucene/src/main/java/com/facebook/presto/lucene
 
-Ignite https://github.com/trinodb/trino/pull/8323 / https://github.com/prabhuom1/presto-ignite-connector-plugin / https://github.com/emhlbmc/presto-ignite
+Ignite https://github.com/trinodb/trino/pull/8323 / https://github.com/prabhuom1/presto-ignite-connector-plugin / https://github.com/emhlbmc/presto-ignite / https://github.com/trinodb/trino/pull/15532
 
 Azure Synapse https://github.com/awslabs/aws-athena-query-federation/tree/master/athena-synapse
 
@@ -77,7 +77,7 @@ Kylin https://github.com/poiyyq/presto-kylin/tree/master/src/main/java/com/faceb
 
 Exasol https://github.com/blunghamer/presto-plugins/tree/master/presto-exasol/src/main/java/io/prestosql/plugin/exasol
 
-Influx https://github.com/prestosql/presto/pull/2397
+Influx https://github.com/prestosql/presto/pull/2397 / https://github.com/trinodb/trino/pull/15549
 
 SnappyData https://github.com/dawsongzhao/snappydata-presto-connector
 
