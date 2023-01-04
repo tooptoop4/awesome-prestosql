@@ -227,7 +227,9 @@ DBIIR ParaFlow https://github.com/dbiir/paraflow/tree/master/paraflow-connector/
 
 Katta (distributed Lucene) https://github.com/zhenqin/katta/tree/master/katta-presto/src/main/java/com/ivyft/katta/presto
 
-SPARQL/Apache Jena syntax https://github.com/ddd332/presto-0.54/tree/a7572ab607512cf084b22b06c871657d3185495e/presto-cli/src/main/java/com/facebook/presto/cli/sparql2sql
+Neo4j/Cypher (Graph db) https://github.com/trinodb/trino/pull/15587
+
+SPARQL/Apache Jena syntax (Semantic Web) https://github.com/ddd332/presto-0.54/tree/a7572ab607512cf084b22b06c871657d3185495e/presto-cli/src/main/java/com/facebook/presto/cli/sparql2sql
 
 Resurface binaries https://github.com/resurfaceio/trino-connector
 
