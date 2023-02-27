@@ -53,8 +53,6 @@ Netezza https://github.com/aakashnand/trino-netezza / https://github.com/combine
 
 Lucene/Solr https://github.com/totticarter/presto-lucene / https://github.com/photogamerun/weiwodb/tree/master/presto-lucene/src/main/java/com/facebook/presto/lucene
 
-Ignite https://github.com/trinodb/trino/pull/8323 / https://github.com/prabhuom1/presto-ignite-connector-plugin / https://github.com/emhlbmc/presto-ignite / https://github.com/trinodb/trino/pull/15532
-
 Azure Synapse https://github.com/awslabs/aws-athena-query-federation/tree/master/athena-synapse
 
 Pulsar https://github.com/trinodb/trino/pull/8020 / https://github.com/apache/pulsar/tree/master/pulsar-sql/presto-pulsar/src/main/java/org/apache/pulsar/sql/presto (inc. protobuf - https://github.com/apache/pulsar/pull/9841/files) / https://github.com/prestodb/presto/pull/11154
@@ -296,6 +294,8 @@ Google Sheets
 Kudu
 
 Redis
+
+Ignite
 
 Thrift
 
