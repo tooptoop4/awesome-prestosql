@@ -17,6 +17,8 @@ Teradata https://github.com/prestodb/presto/pull/12078 / https://github.com/jmro
 
 DB2 https://github.com/IBM/presto-db2
 
+JTOpen/JT400 Db2 for IBMi https://github.com/wAVeckx/trino-jtopen
+
 Snowflake https://github.com/trinodb/trino/pull/10387 / https://github.com/prestosql/presto/pull/2551 / https://github.com/rahulbsw/trino-snowflake/tree/main/src/main/java/io/trino/snowflake / https://github.com/awslabs/aws-athena-query-federation/tree/master/athena-snowflake/src/main/java/com/amazonaws/athena/connectors/snowflake
 
 Hbase https://github.com/harbby/presto-connectors/tree/master/presto-hbase / https://github.com/analysys/presto-hbase-connector / https://github.com/awslabs/aws-athena-query-federation/tree/master/athena-hbase / https://github.com/openlookeng/hetu-core/tree/master/hetu-hbase/src/main/java/io/hetu/core/plugin/hbase
@@ -61,6 +63,8 @@ Ethereum https://github.com/xiaoyao1991/presto-ethereum
 
 Cockroach https://github.com/trinodb/trino/pull/8317
 
+SFTP/Excel https://github.com/raincandyame/presto-excel
+
 Excel https://github.com/phillip2019/trino-plugins/tree/main/spreadsheet-storage-handler
 
 Zookeeper https://github.com/phillip2019/trino-plugins/tree/9df3cdd40a15da6415fd0d0d83f6e1576674b0d6/zookeeper-storage-handler/src/main/java/com/fortitudetec/presto/zookeeper
@@ -75,7 +79,7 @@ Kylin https://github.com/poiyyq/presto-kylin/tree/master/src/main/java/com/faceb
 
 Exasol https://github.com/blunghamer/presto-plugins/tree/master/presto-exasol/src/main/java/io/prestosql/plugin/exasol
 
-Influx https://github.com/prestosql/presto/pull/2397 / https://github.com/trinodb/trino/pull/15549
+Influx https://github.com/trinodb/trino/pull/16427 / https://github.com/Chasingdreams6/presto-influxdb-connector / https://github.com/prestosql/presto/pull/2397 / https://github.com/trinodb/trino/pull/15549
 
 SnappyData https://github.com/dawsongzhao/snappydata-presto-connector
 
@@ -106,6 +110,8 @@ FPGA https://github.com/supermt/presto-fpga-connector
 Vitess https://github.com/vitessio/contrib/tree/master/presto-vitess-connector / https://github.com/yuokada/presto-vitess
 
 Loki https://github.com/sdojjy/presto-loki/tree/master/src/main/java/io/prestosql/plugin/loki
+
+SFTP/CSV https://github.com/raincandyame/presto-csv
 
 LocalCSV https://github.com/dongqianwei/presto-localcsv
 
@@ -159,7 +165,9 @@ Yugabyte-db https://github.com/trinodb/trino/pull/5708 / https://docs.yugabyte.c
 
 recordstore https://github.com/PierreZ/record-store/tree/04b399325aeb020eb9816aeb9a18c876a6a7ee27/presto-connector/src/main/java/fr/pierrezemb/recordstore/presto
 
-Pixelsdb https://github.com/pixelsdb/pixels/tree/master/pixels-presto
+Apache Doris https://github.com/myfjdthink/trino-doris-demo
+
+Pixelsdb https://github.com/pixelsdb/pixels-trino / https://github.com/pixelsdb/pixels/tree/master/pixels-presto
 
 Kairosdb https://github.com/xuhang1458/presto-kairosdb-connector
 
@@ -170,6 +178,8 @@ Git https://github.com/nineinchnick/trino-git
 Rapid7 Armor https://github.com/rapid7/presto-armor-connector/tree/master/src/main/java/com/rapid7/presto/armor
 
 Aerospike https://www.aerospike.com/docs/connect/access/presto/index.html
+
+VeniceDB https://github.com/manujose0/trino-venice
 
 Hyena messaging daemon https://github.com/FCG-LLC/presto/tree/master/presto-hyena/src/main/java/co/llective/presto/hyena
 
