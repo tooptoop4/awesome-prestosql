@@ -71,6 +71,8 @@ Zookeeper https://github.com/phillip2019/trino-plugins/tree/9df3cdd40a15da6415fd
 
 MapD https://github.com/NVIDIA/presto-mapd-connector
 
+Google Cloud Spanner https://github.com/trinodb/trino/pull/16724
+
 Arrow https://github.com/Praveen2112/presto/tree/arrow_connector/presto-arrow-flight/src/main/java/io/prestosql/plugin/arrow / https://github.com/Parth-Brahmbhatt/presto-1/tree/arrow-flight/presto-arrowflight/src/main/java/io/prestosql/plugin/arrowflight / https://github.com/koralium/Koralium/tree/master/presto/trino-connector-arrowflight
 
 kdb https://github.com/sand-stone/dataswitch/tree/master/presto-kdb/src/main/java/kdb/presto / https://github.com/tuor713/trino-kdb
