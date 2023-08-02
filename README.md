@@ -47,6 +47,8 @@ Sagemaker https://github.com/aws-samples/amazon-athena-train-amazon-sagemaker
 
 S3 without Hive https://github.com/EMCECS/presto-s3-connector
 
+OpenAI https://github.com/nineinchnick/trino-openapi
+
 Azure CosmosDB (supported by Mongo connector)
 
 Azure SQL DB (supported by SQLServer connector)
