@@ -65,6 +65,8 @@ Ethereum https://github.com/xiaoyao1991/presto-ethereum
 
 Cockroach https://github.com/trinodb/trino/pull/8317
 
+Firebolt https://github.com/trinodb/trino/pull/18526
+
 SFTP/Excel https://github.com/raincandyame/presto-excel
 
 Excel https://github.com/phillip2019/trino-plugins/tree/main/spreadsheet-storage-handler
