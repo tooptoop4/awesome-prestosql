@@ -465,7 +465,7 @@ trino-client-ruby for Ruby
 
 **Used in:**
 
-GUI: Hue, Sqlpad..etc
+GUI: Hue, Sqlpad, [Beekeeper Studio](https://www.beekeeperstudio.io/db/trino-client/)..etc
 
 Google Cloud: Dataproc
 
